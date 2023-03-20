@@ -42,5 +42,8 @@ f = open('catalog.csv','w')
 print("id,ra,dec", file=f)
 for i in range(nsrc):
     print("{0:07d}, {1:12f}, {2:12f}".format(i, ras[i], decs[i]), file=f)
+    
+    
+# test
 
 
